@@ -1,0 +1,17 @@
+{
+  "name": "captura",
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.44.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
